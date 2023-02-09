@@ -3,7 +3,7 @@ export default function Card({ monster }) {
   return (
     <div className="monster-card">
       <img
-        src={`https://www.robohash.org/${monster.id}/?set=set1`}
+        src={`https://www.robohash.org/${monster.id}/?set=set2`}
         alt={monster.name}
       />
       <h1>{monster.name}</h1>

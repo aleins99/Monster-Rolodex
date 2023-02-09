@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap");
 body {
   margin: 0;
   color: #fff;
@@ -13,4 +14,11 @@ body {
     rgba(0, 128, 128, 1) 100%
   );
   text-align: center;
+}
+
+.app-title {
+  margin: 50px 0px 40px 0;
+  font-size: 76px;
+  color: #0ccac4;
+  font-family: "Bigelow Rules", cursive;
 }
